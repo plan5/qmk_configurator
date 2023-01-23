@@ -137,7 +137,7 @@ export default {
       }
     },
     githubKeyboardFolderURL() {
-      return `https://github.com/qmk/qmk_firmware/tree/master/keyboards/${this.keyboard}`;
+      return `https://github.com/plan5/qmk_firmware/tree/plan5-qpad-mk50/keyboards/${this.keyboard}`;
     },
     keyboard: {
       get() {
